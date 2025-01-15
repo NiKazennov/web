@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Comfortaa:wght@300..700&family=Dosis:wght@200..800&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Jura:wght@300..700&family=Mountains+of+Christmas:wght@400;700&family=Neucha&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Comfortaa:wght@300..700&family=Dosis:wght@200..800&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Jura:wght@300..700&family=Mountains+of+Christmas:wght@400;700&family=Neucha&family=Pangolin&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: rgb(162, 148, 104);
+    background-image: url("Pattern.PNG");
+    background-size: cover;
+}
+footer{
+    font-family: "Mountains of Christmas", serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: wavy;
+}
+h1 {
+    font-family: "Mountains of Christmas", serif;
+    color: aliceblue;
+    margin: auto;
+    justify-content: center;
+    font-size: 72px;
+}
+
+header {
+    background-color: rgb(100, 3, 3);
+    margin: auto;
+    display: flex;
+    width: 1000px;
+    height: 200px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+main {
+    font-family: "Pangolin", serif
+}
+
+p {
+    text-align: center;
+}
+
+.container {
+    background-color: white;
+    border-radius: 70px;
+    width: 200px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.all {
+    background-color: rgb(192, 29, 56);
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+}
+
+.fa-snowflake {
+
+    color: rgb(225, 25, 125);
+    font-size: 80px
+}
+
+.fa-snowman {
+
+    color: rgb(225, 25, 125);
+    font-size: 80px
+}
+
+.fa-person-skiing {
+
+    color: rgb(225, 25, 125);
+    font-size: 80px
+}
+
+.fa-gift {
+
+    color: rgb(225, 25, 125);
+    font-size: 80px
+}
+
+.fa-gifts {
+
+    color: rgb(225, 25, 125);
+    font-size: 80px
+}
+
+.fa-socks {
+
+    color: rgb(225, 25, 125);
+    font-size: 80px
+}
+
+.fa-clapperboard {
+    color: rgb(225, 25, 125);
+    font-size: 80px
+}
+
+.fa-person-skating {
+    color: rgb(225, 25, 125);
+    font-size: 80px
+}
+.container:hover {
+    background-color: rgb(192, 29, 56);
+    border-radius: 70px;
+    width: 200px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 2px solid white;
+    transition: 0.85s;
+}
+.container:hover .fa-gift{
+    color: white
+}
+.container:hover .fa-gifts{
+    color: white
+}.container:hover .fa-clapperboard{
+    color: white
+}.container:hover .fa-person-skating{
+    color: white
+}.container:hover .fa-person-skiing{
+    color: white
+}.container:hover .fa-snowflake{
+    color: white
+}.container:hover .fa-snowman{
+    color: white
+}.container:hover .fa-socks{
+    color: white
+}
+.all_1{
+    background-color: rgb(192, 29, 56);
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    border-bottom-left-radius:50px ;
+    border-bottom-right-radius:50px ;
+}

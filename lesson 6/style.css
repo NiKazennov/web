@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.extra{
+    font-style: italic;
+    text-align: right;
+    font-weight: 100;
+}
+
+.namen1 {
+    color: #78c091;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.typet1{
+    background-color: #78c091;
+    color: white;
+    text-align: center;
+}
+.description{
+    font-weight: bold;
+}
+
+
+
+.card{
+    font-family: "Raleway", sans-serif;
+    background-color: whitesmoke;
+}
+
+header{
+    color: #c5ac3f;
+    text-align: center;
+    font-size: 64px;
+    font-family: "Aladin", system-ui;
+}
+body{
+    background-color: #f8f4e3;
+}
+
+main {
+	width: 600px;
+	margin: 1em auto;
+	border: 1px solid #c5ac3f;
+	border-radius: 1em;
+	padding: 1em;
+}
+
+.card {
+	border-radius: 1em;
+	padding: 1em;
+	margin-bottom: 1em;
+}
+.namen2 {
+    color: #c83050;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.typet2{
+    background-color: #c83050;
+    color: white;
+    text-align: center;
+}
+.namen3 {
+    color: #3071c8;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.typet3{
+    background-color: #3071c8;
+    color: white;
+    text-align: center;
+}
+footer{
+    font-family: "Raleway", sans-serif;
+    font-weight: 100;
+    color:  #c5ac3f;
+    text-align: center;
+}

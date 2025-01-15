@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Dosis:wght@200..800&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Jura:wght@300..700&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap');
+body{
+    background-color: #ADAABF;
+    font-family: "Comfortaa", sans-serif;
+}
+main{
+    width: 1024px;
+    height: 1024px;
+}
+.contain{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    background-color: #2F9C95;
+    color: azure;
+    border-radius: 40px;
+    height: 150px;
+    width: 180px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+.temp{
+    color: #A3F7B5;
+    font-size: 32px;
+}
+header{
+    font-style: bold;
+}
+.card2{
+    background-color: #2F9C95;
+    color: azure;
+    border-radius: 40px;
+    height: 250px;
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+    text-align: center
+}
+.containforcard{
+    display: flex;
+    justify-content: center;
+}
+.special{
+    color:#5523c9;
+}
+.menu{
+    font-size: 20px;
+    color: rgb(75, 73, 73);
+}
+img{
+    width: 200px;
+    height: 200px;
+}

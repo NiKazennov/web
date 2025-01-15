@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Jura:wght@300..700&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap');
+.container{
+    width: 1024px;
+    padding: 16px;
+    margin: auto;
+    border-radius: 16px;
+    display: flex;
+    background-color: #8f8c9d;
+
+}
+.cage{
+    width: 25%;
+    height: 250px;
+    padding: 16px;
+    margin: auto;
+    border-radius: 16px;
+    background-color: white;
+    justify-content: space-evenly;
+}
+.cage img{
+    width: 80%;
+}
+.mid-cage{
+    width: 33%;
+    height: 300px;
+    padding: 16px;
+    margin: auto;
+    border-radius: 16px;
+    background-color: white;
+    justify-content: space-evenly;
+}
+.big-cage{
+    width: 50%;
+    height: 450px;
+    padding: 16px;
+    margin: auto;
+    border-radius: 16px;
+    background-color: white;
+    justify-content: space-evenly;
+    
+}
+body{
+    background-color: #ADAABF;
+    color: #2F9C95;
+    font-family: "Jura",sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+header{
+    display: flex;
+    border-radius: 16px;
+    background-color: rgb(228, 208, 208);
+    align-items: center;
+    font-family: "Jura",sans-serif;
+    box-sizing: border-box;
+    width: 700px;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+}
+header img{
+    width: 10%;
+    display: flex;
+    align-items: center;
+}
+footer{
+    border-radius: 16px;
+    background-color: rgb(218, 201, 201);
+    text-align: center;
+    font-family: "Jura",sans-serif;
+    width: 800px;
+    height: 50px;
+    margin: auto;
+}
