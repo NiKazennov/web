@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
 .news {
   background-color: orangered;
   height: 90px;
@@ -7,7 +8,6 @@
 .line {
   font-size: 200%;
   animation:
-    12s linear 0s infinite alternate rise,
     12s linear 0s infinite alternate bounce;
   color: antiquewhite;
   font-size: 40px;
@@ -23,11 +23,50 @@
   }
 }
 
-img {
+.block_1{
+  border-radius: 20%;
+  background-color: white;
+  width: 500px;
+  height: 600px;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  flex-direction: column;
+  margin:auto;
+  padding: 10px;
+  border: 2px solid rgb(191, 188, 188);
+
+
+}
+body{
+  background-color: rgb(240,240,245);
+  font-family: "Sour Gummy", serif;
+}
+h2{
+  font-size: 40px;
+}
+p{
+  font-size: 24px;
+}
+.block_2{
+    border-radius: 20%;
+    background-color: white;
+    width: 500px;
+    height: 600px;
+    margin:auto;
+    padding: 10px;
+    border: 2px solid rgb(191, 188, 188);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+}
+img{
   width: 300px;
   height: 400px;
+  border-radius: 15%;
 }
-.block1{
-  border-radius: 40%;
-  background-color: rgb(173, 170, 170);
+li{
+  font-size: 28px;
 }
