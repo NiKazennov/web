@@ -1,24 +1,33 @@
-
-
-.news{
-    background-color: orangered;
-    height: 90px;
-    border: 2px solid black;
+.news {
+  background-color: orangered;
+  height: 90px;
+  border: 2px solid black;
 }
-  p {
-    font-size: 200%;
-    animation:
-      12s linear 0s infinite alternate rise,
-      12s linear 0s infinite alternate bounce;
-      color: antiquewhite;
+
+.line {
+  font-size: 200%;
+  animation:
+    12s linear 0s infinite alternate rise,
+    12s linear 0s infinite alternate bounce;
+  color: antiquewhite;
+  font-size: 40px;
+}
+
+@keyframes bounce {
+  from {
+    transform: translateX(0vw);
   }
-  
-  @keyframes bounce {
-    from {
-      transform: translateX(0vw);
-    }
-    to {
-      transform: translateX(80vw);
-    }
+
+  to {
+    transform: translateX(80vw);
   }
-  
+}
+
+img {
+  width: 300px;
+  height: 400px;
+}
+.block1{
+  border-radius: 40%;
+  background-color: rgb(173, 170, 170);
+}
