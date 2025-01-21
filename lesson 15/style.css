@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  cursor: url("Cursor2.PNG"),auto;
+}
 .news {
   background-color: orangered;
   height: 90px;
@@ -8,7 +11,7 @@
 .line {
   font-size: 200%;
   animation:
-    12s linear 0s infinite alternate bounce;
+    10s linear 0s infinite alternate bounce;
   color: antiquewhite;
   font-size: 40px;
 }
@@ -19,7 +22,7 @@
   }
 
   to {
-    transform: translateX(80vw);
+    transform: translateX(74vw);
   }
 }
 
@@ -34,7 +37,7 @@
   align-content: center;
   flex-direction: column;
   margin:auto;
-  padding: 10px;
+  padding: 20px;
   border: 2px solid rgb(191, 188, 188);
 
 
@@ -43,8 +46,19 @@ body{
   background-color: rgb(240,240,245);
   font-family: "Sour Gummy", serif;
 }
-h2{
+a{
   font-size: 40px;
+  background-color: bisque;
+  border-radius: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  margin: 5px;
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+  flex-direction: row;
+  
 }
 p{
   font-size: 24px;
@@ -54,8 +68,7 @@ p{
     background-color: white;
     width: 500px;
     height: 600px;
-    margin:auto;
-    padding: 10px;
+    margin:40px;
     border: 2px solid rgb(191, 188, 188);
     display: flex;
     flex-wrap: wrap;
@@ -68,5 +81,90 @@ img{
   border-radius: 15%;
 }
 li{
-  font-size: 28px;
+  font-size: 40px;
+  list-style-type: none;
+  margin: 10px;
+  border-radius: 30px;
+  width: 130px;
+  text-align: center;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  margin: 15px;
+  align-items: center;
+}
+ul{
+  align-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+.Py{
+  background-color: rgba(90, 149, 227, 0.556);
+  color: rgba(11, 25, 180, 0.978);
+}
+.HTML{
+  background-color: rgba(255, 168, 6, 0.575);
+  color: orangered;
+}
+.CSS{
+  background-color: rgba(255, 255, 0, 0.479);
+  color: rgb(215, 131, 28);
+}
+.Area{
+  font-size: 64px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+.Foto1{
+  width: 500px;
+  height: 700px;
+  border-radius: 15%;
+  margin: 100px;
+}
+.AboutH2{
+  width: 500px;
+  font-size: 40px;
+  margin: 40px;
+}
+p{
+  font-size: 32px;
+  margin: 20px;
+}
+.p{
+  background-color: white;
+  border: 2px solid gray;
+  border-radius: 15%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  width: 700px;
+  height: 700px;
+}
+.button{
+  font-size: 56px;
+  background-color: bisque;
+  border-radius: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+  flex-direction: row;
+  height: 150px;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.button:hover{
+  background-color: rgb(68, 12, 136);
+  color: aliceblue;
+}
+a:hover{
+  background-color: rgb(68, 12, 136);
+  color: aliceblue;
 }
