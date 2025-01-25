@@ -18,11 +18,11 @@
 
 @keyframes bounce {
   from {
-    transform: translateX(0vw);
+    transform: translateX(-30vw);
   }
 
   to {
-    transform: translateX(74vw);
+    transform: translateX(33vw);
   }
 }
 
@@ -53,7 +53,7 @@ a{
   text-align: center;
   text-decoration: none;
   color: black;
-  margin: 5px;
+  margin: auto;
   display: flex;
   justify-content: space-around;
   width: 400px;
@@ -62,11 +62,12 @@ a{
 }
 p{
   font-size: 24px;
+  text-align: center;
 }
 .block_2{
     border-radius: 20%;
     background-color: white;
-    width: 500px;
+    width: 700px;
     height: 600px;
     margin:40px;
     border: 2px solid rgb(191, 188, 188);
@@ -79,11 +80,12 @@ img{
   width: 300px;
   height: 400px;
   border-radius: 15%;
+  margin: auto;
 }
 li{
   font-size: 40px;
   list-style-type: none;
-  margin: 10px;
+  margin: 25px;
   border-radius: 30px;
   width: 130px;
   text-align: center;
@@ -93,11 +95,9 @@ li{
   flex-direction: row;
   margin: 15px;
   align-items: center;
-}
-ul{
-  align-content: flex-start;
-  align-items: flex-start;
-  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
 }
 .Py{
   background-color: rgba(90, 149, 227, 0.556);
@@ -167,4 +167,63 @@ p{
 a:hover{
   background-color: rgb(68, 12, 136);
   color: aliceblue;
+}
+.block_3{
+  border-radius: 20%;
+  background-color: white;
+  width: 500px;
+  height: 600px;
+  margin:40px;
+  border: 2px solid rgb(191, 188, 188);
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  flex-direction: column;
+}
+h2{
+  font-size: 64px;
+  text-align: center;
+}
+.project{
+  background-color: rgb(210, 216, 216);
+  color: orangered;
+  border-radius: 20%;
+}
+.Seemore{
+  background-color: rgb(226, 153, 26);
+  border-radius: 30px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  color: rgb(4, 4, 3);
+}
+.href{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.Pyimg{
+  width: 100px;
+  height: 100px;
+}
+.CSSimg{
+  width: 100px;
+  height: 100px;
+}
+.areas{
+  display: flex;
+  margin: 30px;
+}
+.Python{
+  display: flex;
+  flex-direction: column;
+}
+.HTMLall{
+  display: flex;
+  flex-direction: column;
+}
+.CSSall{
+  display: flex;
+  flex-direction: column;
 }

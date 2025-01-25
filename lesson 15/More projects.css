@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Sour Gummy", serif;
+    cursor: url("Cursor2.PNG"),auto;
+}
+.projects{
+    margin: auto;
+    text-align: center;
+    background-color: #e2d1a5;
+    color: #000000;
+    font-size: 26px;
+    width: 500px;
+    height: 1000px;
+}
+.infoproject{
+    background-color: #e9c058;
+    border-radius: 50px;
+    margin: 20px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.button{
+    background-color: bisque;
+    border-radius: 50px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 50px;
+}
+.button1{
+    background-color: bisque;
+    border-radius: 50px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 50px; 
+    width: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    margin: auto;
+}
