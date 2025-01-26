@@ -75,3 +75,7 @@ justify-content: center;
 .Poetic{
     color: #C1694F;
 }
+a:hover{
+    background-color: rgb(217, 222, 66);
+    color: black;
+}

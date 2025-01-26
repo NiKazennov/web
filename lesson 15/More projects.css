@@ -13,7 +13,7 @@
     height: 1000px;
 }
 .infoproject{
-    background-color: #e9c058;
+    background-color: rgb(233, 192, 88);
     border-radius: 50px;
     margin: 20px;
     height: 400px;
@@ -29,6 +29,7 @@
     color: black;
     font-weight: bold;
     font-size: 50px;
+    scroll-behavior: smooth;
 }
 .button1{
     background-color: bisque;
@@ -42,4 +43,15 @@
     align-items: center;
     flex-direction: column-reverse;
     margin: auto;
+    scroll-behavior: smooth;
+}
+.button1:hover{
+    background-color:rgb(233, 192, 88) ;
+    color: whitesmoke;
+    transition: 0.6s;
+}
+.button:hover{
+    background-color: rgb(227, 103, 9);
+    color: whitesmoke;
+    transition: 0.4s;
 }

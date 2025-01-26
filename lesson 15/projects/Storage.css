@@ -76,4 +76,10 @@ a{
     flex-direction: column;
     justify-content: space-around;
     font-weight: bold;
+    scroll-behavior: smooth;
+}
+a:hover{
+    background-color: black;
+    color: #eee;
+    transition: 0.6s;
 }

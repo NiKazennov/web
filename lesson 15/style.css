@@ -58,6 +58,7 @@ a{
   justify-content: space-around;
   width: 400px;
   flex-direction: row;
+  scroll-behavior: smooth;
   
 }
 p{

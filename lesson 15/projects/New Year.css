@@ -162,3 +162,8 @@ a{
     align-content: center;
     flex-wrap: wrap;
 }
+a:hover{
+    background-color: rgb(192, 29, 56);
+    color: white;
+    transition: 0.6s;
+}

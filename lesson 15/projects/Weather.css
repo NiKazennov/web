@@ -58,14 +58,21 @@ h1{
 }
 a{
     font-size: 40px;
-    background-color: rgb(25, 18, 222);
+    background-color: rgb(55, 133, 228);
     border-radius: 30px;
     text-align: center;
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(57, 3, 253);
     margin: auto;
     display: flex;
     justify-content: space-around;
     width: 400px;
     flex-direction: row;
+    scroll-behavior: smooth;
+    font-weight: bold;
+}
+a:hover{
+    background-color:rgb(25, 18, 222) ;
+    color: whitesmoke;
+    transition: 0.6s;
 }
