@@ -1,12 +1,9 @@
-import re
-def removeHTML(text):
-    return re.sub(r'\<[^>]*\>', '', text)
-from urllib import request
-connect = request.urlopen("https://www.cbr.ru/key-indicators/")
-text = connect.read().decode()
-what = '<td class="value td-w-4 _bold _end mono-num">'
-start = text.find(what)
-end = text.find("<", start+len(what))
-
-text1 = text[start:end]
-print("Курс ЕВРО =", removeHTML(text1))
+a = list(map(int,input().split()))
+min=a[0]
+for i in range(len(a)):
+    if a[i] < min:
+        min = a[i]
+        min_ind = i
+        
+a[0],a[min_ind] = a[min_ind], a[0]
+print(*a)
