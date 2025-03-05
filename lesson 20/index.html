@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="big">
+        <div class="logo">
+            <img src="logo_cats.png" alt="">
+        </div>
+        <div class="forma">
+            <form action="#">
+                <div class="row">
+                    <div class="data">
+                        <label for="name">Your Name:</label>
+                        <input type="text" required id="name" placeholder="Harry">
+                    </div>
+                    <div class="data">
+                        <label for="surname">Your Surname:</label>
+                        <input type="text" required id="surname" placeholder="Potter">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="data">
+                        <label for="age">Your Age:</label>
+                        <input type="number" required id="age" placeholder="14">
+                    </div>
+                    <div class="data">
+                        <label for="lang">Your Native Lang:</label>
+                        <select name="native" id="lang">
+                            <option value="">Please choose an option</option>
+                            <option value="">English</option>
+                            <option value="">Russian</option>
+                            <option value="">Italian</option>
+                        </select>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="data">
+                        <label for="time">Time Lesson:</label>
+                        <input type="time" required id="time">
+                    </div>
+                    <div class="data">
+                        <label for="data">Date Lesson:</label>
+                        <input type="date" required id="data" placeholder="14">
+                    </div>
+                </div>
+                <div class="data1">
+                    <label for="other">Others:</label>
+                    <textarea name="Others" id="other" rows="10" cols="70" placeholder="Extra Information"></textarea>
+                </div>
+                
+                <input type="submit" value="Send" class="button">
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
