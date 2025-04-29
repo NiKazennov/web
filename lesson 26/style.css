@@ -1,0 +1,218 @@
+.i1 {
+    color: red;
+    font-size: 96px;
+    margin: 30px;
+    animation: heartbeat 2s infinite;
+}
+
+p {
+    font-size: 24px;
+}
+
+.card {
+    border-radius: 30px;
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 20px;
+}
+
+body {
+    background-color: rgb(197, 221, 243);
+}
+
+.twos {
+    display: flex;
+}
+
+@keyframes heartbeat {
+    0% {
+        transform: scale(1);
+    }
+
+    25% {
+        transform: scale(1);
+    }
+
+    30% {
+        transform: scale(1.4);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    75% {
+        transform: scale(1.4);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.all {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.i2 {
+    position: relative;
+    color: rgb(111, 10, 10);
+    font-size: 96px;
+}
+
+.i3 {
+    position: absolute;
+    animation: heartbeat-2 2s infinite;
+    margin: auto;
+    font-size: 48px;
+    color:rgba(146, 26, 26, 0.298);
+}
+
+@keyframes heartbeat-2 {
+    0% {
+        transform: scale(1);
+        position: absolute;
+    }
+    25%{
+        transform: scale(1.5);
+        position: absolute;
+    }
+    30%{
+        transform: scale(3);
+        position: absolute
+    }
+    50%{
+        transform: scale(7);
+        position: absolute
+    }
+    75%{
+        transform: scale(3);
+        position: absolute
+    }
+    100% {
+        transform: scale(1);
+        position: absolute;
+    }
+}
+h1{
+    font-size: 78px;
+   text-align: center;
+}
+.border{
+    width: 250px;
+    height: 75px;
+    border-radius: 15px;
+    border: 2px solid black;
+    position: relative;
+}
+.klema{
+    width: 15px;
+    height: 20px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+.battery{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}  
+.charge{
+    background-color: green;
+    width: 30px;
+    height: 75px;
+    position: absolute;
+    border-radius: 15px;
+    animation: charge 3s infinite;
+}
+@keyframes charge{
+    0%{
+        width: 30px;
+    }
+    20%{
+        width: 70px;
+    }
+    30%{
+        width: 120px;
+    }
+    50%{
+        width: 180px;
+    }
+    75%{
+        width: 240px;
+    }
+    100%{
+        width: 30px;
+    }
+}
+.eyeball{
+    width: 150px;
+    height: 250px;
+    border-radius: 70%;
+    border: 2px solid black;
+    margin: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.eyes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.pupil{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: black;
+    margin: 20px;
+    position: absolute;
+    animation: see 5s infinite;
+}
+@keyframes see{
+    0%{
+        bottom: 50px;
+        left: 40px;
+        right: 40px;
+    }
+    25%{
+        bottom: 10px;
+        left: 40px;
+        right: 40px;
+    }
+    30%{
+        bottom: 30px;
+        right: 10px ;
+        left: 40px;
+    }
+    45%{
+        bottom: 10px;
+        right: 40px;
+        left: 40px;
+    }
+    50%{
+        bottom: 30px;
+        left: 20px;
+        right: 0;
+    }
+    75%{
+        bottom: 10px;
+        left: 0;
+        right: 0;
+    }
+    100%{
+        bottom: 50px;
+        left: 0;
+        right: 0;
+    }
+}

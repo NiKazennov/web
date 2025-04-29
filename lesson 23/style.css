@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+body {
+    background-color: #fff7fe;
+    color: #333;
+}
+
+.logo {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    font-family: "Permanent Marker", cursive;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+
+}
+
+li {
+    padding: 15px;
+    font-size: 28px;
+    border-radius: 10px;
+    border: 2px solid #333;
+    margin: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+.card_grad1{
+    background: linear-gradient(90deg,rgb(48, 208, 48),yellow);
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    border-radius: 10px;
+}
+.button{
+    border: 4px solid #ffffff;
+    border-radius: 10px;
+    font-size: 24px;
+    padding: 10px;
+    color: white;
+}
+.card_grad2{
+    background: linear-gradient(90deg,rgb(230, 138, 41),rgb(219, 167, 112));
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    border-radius: 10px;
+}
+.card_grad3{
+    background: linear-gradient(90deg,rgb(36, 210, 175),rgb(37, 235, 225));
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    border-radius: 10px;
+}
+.card_grad4{
+    background: linear-gradient(90deg,rgb(224, 131, 183),rgb(224, 40, 111));
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    border-radius: 10px;
+}
+.card_grad5{
+    background: linear-gradient(90deg,rgb(36, 210, 175),rgb(37, 235, 225));
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    border-radius: 10px;
+}
+.card_grad6{
+    background: linear-gradient(90deg,rgb(224, 131, 183),rgb(224, 40, 111));
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    border-radius: 10px;
+}
+.card_grad7{
+    background: linear-gradient(90deg,rgb(48, 208, 48),yellow);
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    border-radius: 10px;
+}
+.card_grad8{
+    background: linear-gradient(90deg,rgb(230, 138, 41),rgb(219, 167, 112));
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    border-radius: 10px;
+}
+.colors{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1400px;
+    margin: auto;
+}
+.shad1{ 
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    background-color: #333;
+    align-items: center;
+    justify-content: center;
+    color: #fff7fe;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.gr{
+    
+    text-shadow: 0 0 20px rgb(17, 212, 17),0 0 20px rgb(65, 228, 65),0 0 20px rgb(108, 234, 108),0 0 20px rgb(151, 238, 151);
+}
+.shad2{ 
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    background-color: #333;
+    align-items: center;
+    justify-content: center;
+    color: #fff7fe;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.shad3{ 
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    background-color: #333;
+    align-items: center;
+    justify-content: center;
+    color: #fff7fe;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.shad4{ 
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    background-color: #333;
+    align-items: center;
+    justify-content: center;
+    color: #fff7fe;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+p{
+    font-size: 34px;
+}
+.br{
+    text-shadow: 0 0 20px rgb(149, 70, 9),0 -5px 20px rgb(214, 105, 21),0 -7px 20px rgb(228, 122, 40),0 -9px 20px rgb(241, 161, 122);
+}
+.neon{
+    text-shadow: 0 0 5px rgb(42, 231, 221),-3px 5px 5px rgb(42, 231, 221),-6px 7px 5px rgb(42, 231, 221),-9px 9px 5px rgb(42, 231, 221);
+}
+.blac{
+    text-shadow: -10px 5px  rgb(113, 113, 113),5px -5px  rgb(50, 50, 50), 10px 10px  rgb(111, 111, 111);
+}

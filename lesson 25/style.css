@@ -1,0 +1,63 @@
+.board{
+    background-image: url('kandinsky-download-1744729058814.png');
+    height: 450px;
+    width: 800px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.baikal{
+    width: 200px;
+    height: 150px;
+    margin: 30px;
+    transition: 0.6s;
+    border-radius: 15px;
+}
+.baikal:hover{
+    transform: perspective(300px) rotateX(20deg);
+}
+h2{
+    text-align: center;
+    font-size: 32px;
+    transition: 1.5s;
+}
+.Sochi{
+    width: 200px;
+    height: 150px;
+    margin: 30px;
+    transition: 0.6s;
+    border-radius: 15px;
+}
+.Sochi:hover{
+    transform: perspective(200px) rotateY(45deg);
+}
+.Sochi2{
+    width: 200px;
+    height: 150px;
+    margin: 30px;
+    transition: 0.6s;
+    border-radius: 15px;
+}
+.Sochi2:hover{
+    transform: perspective(200px) rotateY(-45deg);
+}
+.Sochi3{
+    width: 200px;
+    height: 150px;
+    margin: 30px;
+    transition: 0.6s;
+    border-radius: 15px;
+}
+.Sochi3:hover{
+    transform: perspective(200px) rotateY(20deg);
+}
+.Italy{
+    width: 200px;
+    height: 150px;
+    margin: 30px;
+    transition: 0.6s;
+    border-radius: 15px;
+}
+.Italy:hover{
+    transform: perspective(170px) rotateX(-25deg);
+}

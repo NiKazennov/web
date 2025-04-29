@@ -1,0 +1,107 @@
+body {
+    background-color: rgb(151, 151, 238);
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logotip {
+    width: 150px;
+    height: 150px;
+    margin: 40px;
+}
+
+.search {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 600px;
+    margin: auto;
+    border: 2px solid #100f0f;
+    border-radius: 15px;
+}
+
+p {
+    font-size: 28px;
+    color: rgb(208, 208, 208);
+}
+
+h1 {
+    font-size: 56px;
+    color: rgb(255, 255, 255);
+}
+
+.lupa {
+    width: 35px;
+    height: 35px;
+}
+
+.playlist {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    flex-direction: column;
+    align-items: center
+}
+
+iframe {
+    border-radius: 20px;
+}
+
+h2 {
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+}
+
+@media (max-width: 480px) {
+    .logo {
+        width: 50%;
+    }
+
+    iframe {
+        width: 40%;
+        height: 100px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .playlist {
+        width: 100%;
+    }
+
+    .logotip {
+        width: 70px;
+        height: 70px;
+    }
+
+    footer {
+        font-size: 13px;
+        width: 100%;
+    }
+
+    .search {
+        width: 100%;
+        margin: auto;
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+
+    .logo {
+        width: 100%;
+
+    }
+}

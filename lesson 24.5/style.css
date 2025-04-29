@@ -1,0 +1,26 @@
+body,
+html {
+    background-color: black;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle{
+    border-radius: 100%;
+    border: 10px solid white;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+}
+.line{
+    border-radius: 80%;
+    width: 10px;
+    height: 90px;
+    border: 10px solid white;
+    background-color: white;
+    transform: rotate(-45deg);
+    position: static;
+    inset: 0 30px 20px;
+}
