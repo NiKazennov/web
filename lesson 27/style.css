@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poiret+One&display=swap");
+body{
+    background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='60' height='30' patternTransform='scale(2) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='%23414141ff'/><path d='M1-6.5v13h28v-13H1zm15 15v13h28v-13H16zm-15 15v13h28v-13H1z'  stroke-width='1' stroke='none' fill='%234bd0ecff'/><path d='M31-6.5v13h28v-13H31zm-45 15v13h28v-13h-28zm60 0v13h28v-13H46zm-15 15v13h28v-13H31z'  stroke-width='1' stroke='none' fill='%2303a9f4ff'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>")
+}
+* {
+	box-sizing: border-box;
+	font-family: "Poiret One", sans-serif;
+}
+
+header,
+main,
+footer {
+	width: 768px;
+	margin: 15px auto;
+}
+
+header,
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h1 {
+	font-family: "Pacifico", cursive;
+	font-size: 38px;
+	background: #121fcf;
+	/* Разберись сам, как это работает :)
+	   Цвета можно подобрать свои :) */
+	background: linear-gradient(to right, #121fcf 0%, #cf1512 100%);
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+header img {
+	height: 70px;
+}
+
+ul {
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    width: 600px;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+
+}
+
+ul li a {
+	width: 100px;
+    background-color: aliceblue;
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 10px;
+    border-radius: 15px;
+}
+li{ 
+    margin: 10px;
+    width: 100px;
+    border-radius: 15px;
+    border: 2px solid black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+li:hover a{
+    background-color: rgb(65, 141, 207);
+    color: whitesmoke;
+}
+
+#photo {
+    width: 500px;
+    display: flex;
+    margin: auto;
+    border-radius: 15px;
+    border: 2px dashed #000;
+}
+
+footer p {
+	font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+}
+
+.filter1{
+    filter: blur(2px);
+}
+.filter2{
+    filter: brightness(0.6);
+}
+.filter3{
+    filter: grayscale(1);
+}
+.filter4{
+    filter: contrast(1.8)
+}
+.filter5{
+    filter: invert(3);
+}
+.filter6{
+    filter: opacity(0.7);
+}
+.filter7{
+    filter: hue-rotate(90deg);
+}
+.filter8{
+    filter: sepia(80);
+}
+#btn9:hover{
+    animation: jello-horizontal 0.9s both;
+}
+#btn1:hover{
+    animation: wobble-hor-top 0.8s both;
+}
+#btn2:hover{
+    animation: wobble-hor-top 0.8s both;
+}
+#btn3:hover{
+    animation: wobble-hor-top 0.8s both;
+}
+#btn4:hover{
+    animation: wobble-hor-top 0.8s both;
+}
+#btn5:hover{
+    animation: wobble-hor-top 0.8s both;
+}
+#btn6:hover{
+    animation: wobble-hor-top 0.8s both;
+}
+#btn7:hover{
+    animation: wobble-hor-top 0.8s both;
+}
+#btn8:hover{
+    animation: wobble-hor-top 0.8s both;
+}
+
+@-webkit-keyframes jello-horizontal {
+    0% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+    30% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+              transform: scale3d(1.25, 0.75, 1);
+    }
+    40% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+              transform: scale3d(0.75, 1.25, 1);
+    }
+    50% {
+      -webkit-transform: scale3d(1.15, 0.85, 1);
+              transform: scale3d(1.15, 0.85, 1);
+    }
+    65% {
+      -webkit-transform: scale3d(0.95, 1.05, 1);
+              transform: scale3d(0.95, 1.05, 1);
+    }
+    75% {
+      -webkit-transform: scale3d(1.05, 0.95, 1);
+              transform: scale3d(1.05, 0.95, 1);
+    }
+    100% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+  }
+  @keyframes jello-horizontal {
+    0% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+    30% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+              transform: scale3d(1.25, 0.75, 1);
+    }
+    40% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+              transform: scale3d(0.75, 1.25, 1);
+    }
+    50% {
+      -webkit-transform: scale3d(1.15, 0.85, 1);
+              transform: scale3d(1.15, 0.85, 1);
+    }
+    65% {
+      -webkit-transform: scale3d(0.95, 1.05, 1);
+              transform: scale3d(0.95, 1.05, 1);
+    }
+    75% {
+      -webkit-transform: scale3d(1.05, 0.95, 1);
+              transform: scale3d(1.05, 0.95, 1);
+    }
+    100% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+  }
+  @-webkit-keyframes wobble-hor-top {
+    0%,
+    100% {
+      -webkit-transform: translateX(0%);
+              transform: translateX(0%);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+    }
+    15% {
+      -webkit-transform: translateX(-30px) rotate(6deg);
+              transform: translateX(-30px) rotate(6deg);
+    }
+    30% {
+      -webkit-transform: translateX(15px) rotate(-6deg);
+              transform: translateX(15px) rotate(-6deg);
+    }
+    45% {
+      -webkit-transform: translateX(-15px) rotate(3.6deg);
+              transform: translateX(-15px) rotate(3.6deg);
+    }
+    60% {
+      -webkit-transform: translateX(9px) rotate(-2.4deg);
+              transform: translateX(9px) rotate(-2.4deg);
+    }
+    75% {
+      -webkit-transform: translateX(-6px) rotate(1.2deg);
+              transform: translateX(-6px) rotate(1.2deg);
+    }
+  }
+  @keyframes wobble-hor-top {
+    0%,
+    100% {
+      -webkit-transform: translateX(0%);
+              transform: translateX(0%);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+    }
+    15% {
+      -webkit-transform: translateX(-30px) rotate(6deg);
+              transform: translateX(-30px) rotate(6deg);
+    }
+    30% {
+      -webkit-transform: translateX(15px) rotate(-6deg);
+              transform: translateX(15px) rotate(-6deg);
+    }
+    45% {
+      -webkit-transform: translateX(-15px) rotate(3.6deg);
+              transform: translateX(-15px) rotate(3.6deg);
+    }
+    60% {
+      -webkit-transform: translateX(9px) rotate(-2.4deg);
+              transform: translateX(9px) rotate(-2.4deg);
+    }
+    75% {
+      -webkit-transform: translateX(-6px) rotate(1.2deg);
+              transform: translateX(-6px) rotate(1.2deg);
+    }
+  }
+  
