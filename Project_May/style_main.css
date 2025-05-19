@@ -90,3 +90,48 @@ ul {
         transform: translateY(-8px);
     }
 }
+.code{
+    width: 35%;
+    height: 35%;    
+}
+.picture_1{
+    border-radius: 15px;
+    width: 70%;
+    height: 70%;
+    margin: 10px;
+}
+.picture_2{
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+}
+.picture_3{
+    border-radius: 15px;
+    width: 80%;
+    height: 80%;
+    margin: 20px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color:#efeff1;
+    font-size: 26px;
+}
+.pictures{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 200%;
+    height: 200%;
+}
+.combine{
+    display: flex;
+    align-items: center;
+}
+footer{
+    color:#c5c5c5;
+    font-style: italic;
+    font-size: 16px;
+    text-align: center;
+}
