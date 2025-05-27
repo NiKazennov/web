@@ -13,7 +13,7 @@ body {
     background-color: #8d6fce;
 }
 
-li {
+.menu_point {
     list-style: none;
 }
 
@@ -67,20 +67,24 @@ h1 {
     animation: levitate 3s infinite;
 }
 
-@keyframes levitate{
-    0%{
+@keyframes levitate {
+    0% {
         transform: translateY(-8px);
     }
-    30%{
+
+    30% {
         transform: translateY(5px);
     }
-    60%{
+
+    60% {
         transform: translateY(8px);
     }
-    100%{
+
+    100% {
         transform: translateY(-8px);
     }
 }
+
 h2 {
     font-family: "Bungee", sans-serif;
     font-weight: 400;
@@ -89,3 +93,97 @@ h2 {
     font-size: 23px;
     text-align: center;
 }
+
+.menu_facts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.li_facts {
+    margin: 30px;
+    font-size: 24px;
+}
+
+.title {
+    font-size: 34px;
+    text-decoration: underline
+}
+
+.facts {
+    color: #2c0d36;
+}
+
+.bug_examp {
+    width: 30%;
+    height: 40%;
+    border-radius: 15px;
+    margin: 30px;
+}
+
+.bug {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title_p {
+    color: #2c0d36;
+    font-size: 24px;
+    margin: 20px;
+}
+
+.bug_examp2 {
+    border-radius: 15px;
+    border: 2px dashed #594486;
+    width: 30%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin: 30px;
+}
+
+.layer_end {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.what {
+    font-size: 108px;
+    position: relative;
+    animation: glitch 3s infinite;
+}
+
+@keyframes glitch{
+    0%{
+        left: 15px;
+        bottom: 15px;
+        color: red;
+    }
+    20%{
+        left: -15px;
+        bottom: -15px;
+        color: blue;
+    }
+    40%{
+        right: 15px;
+        top: 15px;
+        color: black;
+    }
+    60%{
+        right: -15px;
+        top: -15px;
+        color: blue;
+    }
+    80%{
+        bottom: 15px;
+        color: red;
+    }
+    100%{
+        bottom: -15px;
+        color: black;
+    }
+
+}
+

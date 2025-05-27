@@ -135,3 +135,21 @@ footer{
     font-size: 16px;
     text-align: center;
 }
+@media(max-width: 480px){
+    .button{
+        font-size: 10px;
+        margin:10px;
+        padding: 8px;
+        width: 20%;
+        height: 20%;
+    }
+    h1{
+        font-size: 32px;
+    }
+    .menu{
+        width: 100%;
+    }
+    p{
+        font-size: 16px;
+    }
+}
